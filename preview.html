@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>快速申请导航</title>
+
+  <!-- Tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    .nav-card {
+      transition: all 0.2s ease;
+    }
+    .nav-card:hover {
+      transform: translateY(-4px);
+    }
+    .nav-card:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-6">
+
+  <!-- 标题 -->
+  <h1 class="text-4xl font-bold text-gray-800 mb-10">政务快速办理入口</h1>
+
+  <!-- ===== 食品类 ===== -->
+  <section class="w-full max-w-6xl mb-16">
+    <h2 class="text-2xl font-semibold text-gray-700 mb-6 border-l-4 border-blue-600 pl-3">
+      食品许可证及预包装
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344012500900702"
+         class="nav-card bg-blue-600 hover:bg-blue-700 text-white p-6 rounded-xl shadow text-center">
+        食品经营许可证新办
+      </a>
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344012500900704"
+         class="nav-card bg-blue-600 hover:bg-blue-700 text-white p-6 rounded-xl shadow text-center">
+        食品经营许可证延续
+      </a>
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344012500900701"
+         class="nav-card bg-blue-600 hover:bg-blue-700 text-white p-6 rounded-xl shadow text-center">
+        食品经营许可证注销
+      </a>
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344012500900703"
+         class="nav-card bg-blue-600 hover:bg-blue-700 text-white p-6 rounded-xl shadow text-center">
+        食品经营许可证变更
+      </a>
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344212503R001"
+         class="nav-card bg-green-600 hover:bg-green-700 text-white p-6 rounded-xl shadow text-center">
+        预包装食品首次备案
+      </a>
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344212503R002"
+         class="nav-card bg-green-600 hover:bg-green-700 text-white p-6 rounded-xl shadow text-center">
+        预包装食品备案变更
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ===== 个体户 ===== -->
+  <section class="w-full max-w-6xl">
+    <h2 class="text-2xl font-semibold text-gray-700 mb-6 border-l-4 border-green-600 pl-3">
+      个体户业务
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344012501600101"
+         class="nav-card bg-purple-600 hover:bg-purple-700 text-white p-6 rounded-xl shadow text-center">
+        个体户新办
+      </a>
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344012501600104"
+         class="nav-card bg-purple-600 hover:bg-purple-700 text-white p-6 rounded-xl shadow text-center">
+        港澳居民新办
+      </a>
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C927392344012501600303"
+         class="nav-card bg-purple-600 hover:bg-purple-700 text-white p-6 rounded-xl shadow text-center">
+        个体户变更
+      </a>
+
+      <a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440300MB2C9273923440125016002"
+         class="nav-card bg-red-600 hover:bg-red-700 text-white p-6 rounded-xl shadow text-center">
+        个体户注销
+      </a>
+
+      <a href="https://tyrz.gd.gov.cn/pscp/sso/static/?client_id=szjxgcxt&redirect_uri=https%3A%2F%2Famr.sz.gov.cn%2Fpsout%2Fjsp%2Fgcloud%2Fpubservice%2Fuserstsso%2Fgodeal.jsp&response_type=code&scope=all&service=initService"
+         class="nav-card bg-gray-700 hover:bg-gray-800 text-white p-6 rounded-xl shadow text-center">
+        个人信息查询
+      </a>
+
+    </div>
+  </section>
+
+</body>
+</html>
